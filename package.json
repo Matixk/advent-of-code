@@ -1,0 +1,10 @@
+{
+  "name": "advent-of-code-mk",
+  "version": "1.0.0",
+  "description": "Solutions for the tasks from https://adventofcode.com",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Mateusz Korbut",
+  "license": "ISC"
+}
