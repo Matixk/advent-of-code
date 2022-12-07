@@ -1,9 +1,9 @@
-// 5.1
+// 6.1
 function findMarker1(data) {
   console.log(_findMarker(data, 4));
 }
 
-// 5.2
+// 6.2
 function findMarker2(data) {
   console.log(_findMarker(data, 14));
 }
@@ -16,4 +16,4 @@ function _findMarker(data, bufferSize) {
   }
 }
 
-module.exports = { first: findMarker1, sec: findMarker2 };
+module.exports = { findMarker1, findMarker2 };

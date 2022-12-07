@@ -4,7 +4,8 @@ const { getPRS, getPRS2 } = require('./day-2');
 const { sumErrorsInRucksacks, sumBadges } = require('./day-3');
 const { sumRangeInOtherRange, sumOverlaps } = require('./day-4');
 const { rearrangeCargo, rearrangeCargo2 } = require('./day-5');
-const { first, sec } = require('./day-6');
+const { findMarker1, findMarker2 } = require('./day-6');
+const { getSumOfDirectories, findDirToRemove } = require('./day-7');
 
 function _readFile(file, callback) {
     fs.readFile(file, 'utf8', (err, data) => {
@@ -37,5 +38,9 @@ function _readFile(file, callback) {
 // _readFile('day-5.txt', rearrangeCargo2);
 
 // Day 6 solutions
-_readFile('day-6.txt', first);
-_readFile('day-6.txt', sec);
+// _readFile('day-6.txt', findMarker1);
+// _readFile('day-6.txt', findMarker1);
+
+// Day 7 solutions
+_readFile('day-7.txt', getSumOfDirectories);
+_readFile('day-7.txt', findDirToRemove);
